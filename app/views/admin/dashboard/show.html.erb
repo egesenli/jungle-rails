@@ -8,6 +8,7 @@
         <div class="card-body">
           <h5 class="card-title">Total Products</h5>
           <p class="card-text"><%= @product_count %></p>
+          <%= link_to "View All Products", admin_products_path, class: "btn btn-primary" %>
         </div>
       </div>
     </div>
@@ -16,6 +17,7 @@
         <div class="card-body">
           <h5 class="card-title">Total Categories</h5>
           <p class="card-text"><%= @category_count %></p>
+          <%= link_to "View All Categories", admin_categories_path, class: "btn btn-primary" %>
         </div>
       </div>
     </div>
